@@ -19,14 +19,21 @@ main {
 
 .caixa {
     position: relative;
+    text-align: center;
     width: 940px;
     margin: 0 auto;
 }
 
+.logo {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
 nav {
     position: absolute;
-    top: 170px;
-    left: 45px;
+    top: 123px;
+    left: 149px;
     transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
 }
@@ -40,7 +47,7 @@ nav a {
     text-transform: uppercase;
     color: var(--cor-logo-header);
     font-weight: bold;
-    font-size: 22px ;
+    font-size: 18px ;
     text-decoration: none;
 }
 
