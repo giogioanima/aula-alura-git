@@ -2,10 +2,12 @@
     --cor-logo-header: #2b2c30;
     --cor-logo-footer: #FFFFFF;
 
-    --fonte-principal: 'Poppins', san-serif;
-    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+    --fonte-principal: 'Roboto', sans-serif;
 }
 
+body {
+    font-family: var(--fonte-principal);
+}
 
 header {
     background: #BBBBBB;
