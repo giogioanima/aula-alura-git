@@ -7,6 +7,7 @@
 
 body {
     font-family: var(--fonte-principal);
+    font-weight: 300;
 }
 
 header {
@@ -34,8 +35,8 @@ main {
 
 nav {
     position: absolute;
-    top: 123px;
-    left: 149px;
+    top: 125px;
+    left: 160px;
     transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
 }
@@ -48,8 +49,8 @@ nav li {
 nav a {
     text-transform: uppercase;
     color: var(--cor-logo-header);
-    font-weight: bold;
-    font-size: 18px ;
+    font-weight: 500;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -103,7 +104,6 @@ nav a:hover {
     font-weight: bold;
     margin-top: 10px;
 }
-
 
 form {
 	margin: 40px 0;
@@ -180,6 +180,11 @@ footer {
 /* css da página inicial */
 .banner {
     width: 100%;
+}
+
+.principal {
+    font-size: 15px;
+	line-height: 17px;
 }
 
 .titulo-principal {
