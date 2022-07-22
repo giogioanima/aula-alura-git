@@ -165,11 +165,11 @@ footer {
 
 .logo-branca {
     margin: 2rem 0 0;
-    width: 15%;
+    width: 10%;
 }
 
 .copyright {
     color: var(--cor-logo-footer);
     font-size: 13px;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem 3rem 1rem;
 }
