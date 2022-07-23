@@ -256,6 +256,7 @@ main {
 
 .itens {
     line-height: 1.5;
+    list-style-type: none;
 }
 
 .itens:first-child {
