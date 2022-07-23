@@ -269,6 +269,7 @@ main {
 
 .imagem-beneficios {
     width: 60%;
+    display: inline-block;
 }
 
 .video {
