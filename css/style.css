@@ -55,8 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ce9908;
-    text-decoration: underline;
+    color: #d31204;
 }
 
 .produtos {
@@ -182,7 +181,7 @@ footer {
     width: 100%;
 }
 
-.principal {
+.principal, .mapa, .beneficios {
     font-size: 15px;
 	line-height: 17px;
 }
@@ -214,4 +213,12 @@ footer {
 
 .imagembeneficios {
     width: 60%;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
 }
