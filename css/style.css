@@ -333,8 +333,12 @@ main {
 		box-shadow: none;
     }
 
-    .logo-branca {
-        margin: 2rem auto;
-        width: 25%;
+    footer {
+        padding: 1em;
     }
+
+	.logo-branca {
+		margin: 2rem 0 0;
+	    width: 50%;
+	}
 }
