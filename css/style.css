@@ -193,6 +193,8 @@ main {
     font-size: 2em;
     margin: 1em 0 1em 0;
     clear: left;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
 .titulo-principal:before {
@@ -272,6 +274,13 @@ main {
 .imagem-beneficios {
 	margin: 1em 0 0 0;
     width: 37%;
+	opacity: 1;
+	transition: 400ms;
+    box-shadow: 5px 5px 20px -5px #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video {
