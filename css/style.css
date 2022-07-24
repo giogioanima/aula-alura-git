@@ -319,11 +319,22 @@ main {
 		text-align: justify;
     }
 
-    .mapa-conteudo p {
+    .mapa p {
         margin: 0 2em 1em;
     }
 
-    .lista-beneficios, .imagem-beneficios {
+    .lista-beneficios {
         width: 100%;
+        padding: 0 22% 1em;
+    }
+    
+    .imagem-beneficios {
+        width: 100%;
+		box-shadow: none;
+    }
+
+    .logo-branca {
+        margin: 2rem auto;
+        width: 25%;
     }
 }
